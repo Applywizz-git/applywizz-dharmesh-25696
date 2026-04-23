@@ -10,18 +10,26 @@ import projectReportingAutomation from "@/assets/project-reporting-automation.jp
 const projects = [
   {
     icon: FiCloud,
-    title: "Cloud-Based Claims Processing Platform",
-    description: "Developed Spring Boot microservices integrated with Oracle to automate claim-status validation workflows.",
+    title: "Cloud-Based Claims Processing Workflow Optimization Platform",
+    description: "Developed Spring Boot microservices integrated with Oracle persistence layers to automate claim-status validation workflows.",
     tags: ["Spring Boot", "Oracle", "Kafka", "Docker", "Red Hat OpenShift"],
-    highlights: ["35% reduction in reconciliation effort", "Kafka-based asynchronous event pipelines", "GitLab CI/CD automated deployment"],
+    highlights: [
+      "Developed Spring Boot microservices integrated with Oracle persistence layers to automate claim-status validation workflows, reducing simulated reconciliation effort by approximately 35%.",
+      "Engineered Kafka-based asynchronous event pipelines to coordinate claim lifecycle updates across distributed services, improving workflow processing consistency by 30%.",
+      "Containerized application components using Docker and deployed them on Red Hat OpenShift through GitLab CI/CD pipelines, reducing manual deployment steps by nearly 50%.",
+    ],
     image: projectCloudClaims,
   },
   {
     icon: FiLayers,
-    title: "Scalable Personal Finance Analytics and Recommendation Platform ",
-    description: "Implemented Node.js backend services with PostgreSQL to support structured expense categorization and reporting.",
+    title: "Scalable Personal Finance Analytics and Recommendation Platform",
+    description: "Implemented Node.js backend services with PostgreSQL storage to support structured expense categorization workflows.",
     tags: ["Node.js", "PostgreSQL", "React.js", "REST APIs", "SQL"],
-    highlights: ["40% improvement in query performance", "Interactive React.js visualizations", "45% reduction in report latency"],
+    highlights: [
+      "Implemented Node.js backend services with PostgreSQL storage to support structured expense categorization workflows, improving reporting query performance by 40%.",
+      "Constructed React.js dashboards integrated with REST APIs to visualize spending trends, improving dataset interpretation speed for users by approximately 30%.",
+      "Optimized SQL indexing and API filtering logic across analytics modules, reducing response latency during report generation by nearly 45%.",
+    ],
     image: projectFinanceAnalytics,
   },
 ];

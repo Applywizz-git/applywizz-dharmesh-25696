@@ -64,7 +64,7 @@ const HeroSection = () => {
             transition={{ type: "spring", stiffness: 150, damping: 15 }}
           >
             <img
-              src="/profile-boy.png"
+              src="/profile-boy.jpeg"
               alt="Dharmesh Kumar Sirnam - Software Developer"
               className="w-full h-full object-cover scale-110 hover:scale-125 transition-transform duration-700"
             />
